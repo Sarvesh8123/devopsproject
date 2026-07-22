@@ -16,7 +16,7 @@ pipeline {
 
                 git branch: 'main',
 
-                url: 'https://github.com/'
+                url: 'https://github.com/Sarvesh8123/devopsproject.git'
 
             }
 
