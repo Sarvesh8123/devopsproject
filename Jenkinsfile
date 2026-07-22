@@ -30,7 +30,7 @@ pipeline {
 
                 sh '''
 
-                cd app
+               
 
                 docker build -t devops-app .
 
