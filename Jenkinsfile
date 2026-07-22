@@ -48,9 +48,6 @@ pipeline {
 
                 sh '''
 
-                docker stop devops-container || true
-
-                docker rm devops-container || true
 
  
 
