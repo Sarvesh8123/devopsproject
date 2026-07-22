@@ -51,13 +51,7 @@ pipeline {
 
  
 
-                docker run -d \
-
-                  --name devops-container \
-
-                  -p 80:80 \
-
-                  devops-app
+                docker run -d --name devops-container -p 80:80 devops-app
 
                 '''
 
